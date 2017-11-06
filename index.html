@@ -1,0 +1,101 @@
+<html>
+<head>
+  <script src="elm.js"></script>
+  <style>
+    /* you can style your program here */
+ .autocomplete-menu {
+    position: relative;
+    margin-top: 5px;
+    background: white;
+    color: black;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    min-width: 120px;
+}
+
+.autocomplete-item {
+    display: block;
+    padding: 5px 10px;
+    border-bottom: 1px solid #DDD;
+    cursor: pointer;
+}
+
+.key-selected {
+    background-color: #3366FF;
+}
+
+.mouse-selected {
+    background-color: #ececec;
+}
+
+.autocomplete-list {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.autocomplete-list-with-sections {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+.autocomplete-input {
+    min-width: 120px;
+    color: black;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.autocomplete-section-list {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.autocomplete-section-item {
+  display: block;
+  padding: 0;
+}
+
+.autocomplete-section-box {
+  display: block;
+  padding: 0;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+}
+
+.autocomplete-section-text {
+  display: flex;
+  justify-content: center;
+}
+
+.tz-label {
+  width: 150px;
+}
+
+.tz-hour {
+  width: 15px;
+}
+    .hour-8, .hour-9 { background-color: #fdfd96; }
+    .hour-10, .hour-11, .hour-12, .hour-13, .hour-14, .hour-15, .hour-16, .hour-17 { background-color: #77dd77; }
+    .hour-18, .hour-19, .hour-20 { background-color: #fdfd96 }
+    .hour-21, .hour-22, .hour-23, .hour-6, .hour-7 { background-color: #ffad46 }
+    .hour-0, .hour-1, .hour-2, .hour-3, .hour-4, .hour-5 { background-color: #ff6961}
+  </style>
+</head>
+<body>
+  <script>
+    var app = Elm.Main.fullscreen()
+    // you can use ports and stuff here
+  </script>
+</body>
+</html>
+
